@@ -27,6 +27,7 @@ function Textbox() {
     <div>
       <div>
         <div>
+            <h3>Search</h3>
           <input type="text" value={value} onChange={onChange} onKeyDown={handleKey} />
           <button>Search</button>
         </div>
